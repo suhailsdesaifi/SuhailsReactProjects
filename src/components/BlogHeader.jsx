@@ -19,7 +19,7 @@ function BlogHeader() {
                 </div>
                 <Text type='text1-6'>Pitch termsheet backing validation focus release.</Text>
                 <div className='flex gap-4 item-center'>
-                    <Profile size='small'><img src='../assets/Ellips 10.svg' alt='ProfilePic' /></Profile>
+                    <Profile size='small'><img src='../assets/Ellips 10.svg' alt='ProfilePic' className='h-full w-full rounded-full' /></Profile>
                     <Text type='text1-1'>Chandler Bing</Text>
                 </div>
             </div>
