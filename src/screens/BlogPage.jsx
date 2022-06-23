@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 function BlogPage() {
   return (
-    <div className='px-[6.25rem] pt-14'>
+    <div className='px-[6.25rem]'>
         <Navbar />
         <BlogHeader />
         <LatestNews />

@@ -8,7 +8,7 @@ function Text(props) {
     if(type === 'text1-1')
         return <div className={`${color ? color : "text-[#0A2640]"} font-normal text-[#0A2640] text-base leading-7`}>{children}</div>
     if(type === 'text1-2')
-        return <div className='font-normal text-[#0A2640] text-xl leading-8'>{children}</div>
+        return <div className={`${color ? color : "text-[#0A2640]"} font-normal text-xl leading-8`}>{children}</div>
     if(type === 'text1-3')
         return <div className='font-normal text-[#0A2640] text-2xl leading-9'>{children}</div>
     if(type === 'text1-4')
@@ -18,7 +18,7 @@ function Text(props) {
     if(type === 'text1-6')
         return <div className={`${color ? color : "text-[#0A2640]"} font-normal text-5xl leading-[4.5rem]`}>{children}</div>
     if(type === 'text1-7')
-        return <div className='font-normal text-[#0A2640] text-[4rem] leading-[5.25rem]'>{children}</div>
+        return <div className={`${color ? color : "text-[#0A2640]"} font-normal text-[4rem] leading-[5.25rem]`}>{children}</div>
     if(type === 'text1-8')
         return <div className='font-normal text-[#0A2640] text-8xl leading-[3.5rem]'>{children}</div>
 

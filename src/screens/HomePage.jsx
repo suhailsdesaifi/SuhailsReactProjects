@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 
 function HomePage() {
   return (
-    <div className='px-[6.25rem] pt-14'>
+    <div className='px-[6.25rem]'>
         <Navbar />
         <EmailIForm />
         <Footer />

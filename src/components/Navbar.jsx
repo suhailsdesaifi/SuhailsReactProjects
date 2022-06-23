@@ -4,7 +4,7 @@ import Text from '../advice/Text'
 
 function Navbar() {
   return (
-    <div className='flex justify-between items-center'>
+    <div className='flex justify-between items-center pt-14'>
         <Logo className='cursor-pointer' />
         <div className='flex items-center gap-10'>
             <Text type='text2-0'>Product</Text>

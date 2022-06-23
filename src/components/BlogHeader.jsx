@@ -11,7 +11,7 @@ function BlogHeader() {
             <Text type='text1-7'>Thoughts and words</Text>
         </div>
         <div className='flex gap-[6.25rem] items-center'>
-            <Logo />
+            <Logo className='w-[52rem]' />
             <div className=''>
                 <div className='flex gap-5'>
                     <Text type='text3-2'>Category</Text>

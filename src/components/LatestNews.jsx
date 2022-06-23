@@ -54,10 +54,10 @@ function LatestNews() {
         <div className='grid grid-cols-3 grid-rows-2 gap-12 pt-5'>
             {
                 usersList.map((item) => (
-                    <div className='flex flex-col items-center'>
+                    <div className='flex flex-col gap-4 items-center h-96 border-2 border-red-500'>
                        <Profile size='medium'>{item.image}</Profile>
-                        <div className='flex flex-col justify-between'>
-                            <div className='flex gap-5'>
+                        <div className='flex flex-col border-2 border-yellow-500'>
+                            <div className='flex gap-5 border-2 border-green-500'>
                                 <Text type='text3-2'>Category</Text>
                                 <Text type='text1-1' color='text-[#777777]'>November 22, 2022</Text>
                             </div>
